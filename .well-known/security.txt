@@ -2,4 +2,4 @@ Contact: mailto:info@jirulabs.com
 Expires: 2027-11-01T00:00:00.000Z
 Preferred-Languages: es, en
 Canonical: https://jirulabs.com/.well-known/security.txt
-Policy: https://github.com/jiru-labs/mcp-config-audit/blob/main/SECURITY.md
+Policy: https://github.com/nyakojiru/mcp-config-audit/blob/main/SECURITY.md
