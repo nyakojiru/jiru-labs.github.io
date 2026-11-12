@@ -262,6 +262,19 @@
   <hr class="rule">
 
   <section>
+    <h2>Principles</h2>
+    <ul class="plain">
+      <li><b>Privacy-first</b> — local-first, zero telemetry. Nothing phones home unless you opt in.</li>
+      <li><b>Cypherpunk</b> — secrets stay encrypted on your machine; sync is self-hosted or end-to-end encrypted, never someone else's cleartext.</li>
+      <li><b>Open source</b> — permissive licenses (MIT and friends) are welcome; no copyleft required.</li>
+      <li><b>KISS</b> — keep it simple, stupid: one simple way to do each thing.</li>
+    </ul>
+    <p class="soft" style="margin-top:1.1rem; font-size:.96rem">In practice: my tools never impersonate official clients or read other apps' data (browser cookies included), and anything unofficial is documented as unofficial.</p>
+  </section>
+
+  <hr class="rule">
+
+  <section>
     <h2>Data analysis — Madrid residential market</h2>
     <p class="soft">I track the residential supply of Madrid and its metropolitan area daily, listing by listing, from the day it is published until it disappears. That series yields figures an average-price report cannot give: <strong>how long each zone actually takes to sell</strong>, <strong>what share of sellers end up cutting the price</strong>, by how much, and how long they wait before doing it.</p>
     <p class="soft">Time on market is estimated with survival analysis: listings still active are not discarded, they inform the estimate up to the last observed date. That is what avoids the optimistic bias of averaging only what has already sold. Aggregates are cross-checked against the INE's official transaction statistics for the province.</p>
