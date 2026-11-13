@@ -91,6 +91,11 @@
     font:400 .76rem/1 ui-sans-serif,-apple-system,"Segoe UI",system-ui,sans-serif;
     color:var(--ink-faint); letter-spacing:.02em;
   }
+  .archived {
+    font:500 .7rem/1 ui-sans-serif,-apple-system,"Segoe UI",system-ui,sans-serif;
+    color:var(--ink-faint); border:1px solid var(--rule); border-radius:5px; padding:.25rem .45rem;
+    text-transform:uppercase; letter-spacing:.06em;
+  }
   .card p { margin:0; font-size:.98rem; color:var(--ink-soft); }
 
   code {
@@ -237,17 +242,6 @@
       </div>
       <div class="card">
         <div class="card-top">
-          <h3>mcp-config-audit</h3>
-          <span class="meta">Python · MIT</span>
-        </div>
-        <p>Audita ficheros de configuración MCP en busca de claves incrustadas, transportes en claro, comandos de arranque tipo <code>curl&nbsp;|&nbsp;sh</code> y permisos demasiado amplios. Lee la configuración, no los servidores. Salida SARIF.</p>
-        <pre class="install"><code>pipx install mcp-config-audit</code></pre>
-        <p class="warn">PyPI es el único registro en el que se publica, siempre desde un commit etiquetado de este repositorio. Un paquete con este nombre en npm o en cualquier otro registro no es mío.</p>
-        <div class="cardlinks"><a href="https://github.com/nyakojiru/mcp-config-audit">Código</a><a href="https://pypi.org/project/mcp-config-audit/">PyPI</a></div>
-        <div class="tags"><span class="tag">mcp</span><span class="tag">ai-security</span><span class="tag">static-analysis</span><span class="tag">sarif</span><span class="tag">devsecops</span></div>
-      </div>
-      <div class="card">
-        <div class="card-top">
           <h3>proofkey</h3>
           <span class="meta">TypeScript · MIT</span>
         </div>
@@ -257,8 +251,21 @@
       </div>
       <div class="card">
         <div class="card-top">
+          <h3>mcp-config-audit</h3>
+          <span class="meta">Python · MIT</span>
+          <span class="archived">Archivado</span>
+        </div>
+        <p>Audita ficheros de configuración MCP en busca de claves incrustadas, transportes en claro, comandos de arranque tipo <code>curl&nbsp;|&nbsp;sh</code> y permisos demasiado amplios. Lee la configuración, no los servidores. Salida SARIF.</p>
+        <pre class="install"><code>pipx install mcp-config-audit</code></pre>
+        <p class="warn">Archivado: el código y el paquete de PyPI siguen publicados, pero ya no recibe cambios. PyPI es el único registro en el que se publica, siempre desde un commit etiquetado de este repositorio. Un paquete con este nombre en npm o en cualquier otro registro no es mío.</p>
+        <div class="cardlinks"><a href="https://github.com/nyakojiru/mcp-config-audit">Código</a><a href="https://pypi.org/project/mcp-config-audit/">PyPI</a></div>
+        <div class="tags"><span class="tag">mcp</span><span class="tag">ai-security</span><span class="tag">static-analysis</span><span class="tag">sarif</span><span class="tag">devsecops</span></div>
+      </div>
+      <div class="card">
+        <div class="card-top">
           <h3>epub2audiobook</h3>
           <span class="meta">Python · MIT</span>
+          <span class="archived">Archivado</span>
         </div>
         <p>Convierte un epub en un audiolibro con capítulos. Gemini TTS pone la narración y una conversión de voz contra un único clip de referencia fija el timbre, para que la voz no cambie cada vez que el modelo empieza una generación nueva. Viene con la investigación medida detrás: defectos de cada motor, rondas de escucha a ciegas y los arreglos que mejoraban las cifras pero sonaban peor.</p>
         <div class="cardlinks"><a href="https://github.com/nyakojiru/epub2audiobook/blob/main/FINDINGS.md">Hallazgos (en inglés)</a><a href="https://github.com/nyakojiru/epub2audiobook">Código</a></div>

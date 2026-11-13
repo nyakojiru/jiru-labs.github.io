@@ -91,6 +91,11 @@
     font:400 .76rem/1 ui-sans-serif,-apple-system,"Segoe UI",system-ui,sans-serif;
     color:var(--ink-faint); letter-spacing:.02em;
   }
+  .archived {
+    font:500 .7rem/1 ui-sans-serif,-apple-system,"Segoe UI",system-ui,sans-serif;
+    color:var(--ink-faint); border:1px solid var(--rule); border-radius:5px; padding:.25rem .45rem;
+    text-transform:uppercase; letter-spacing:.06em;
+  }
   .card p { margin:0; font-size:.98rem; color:var(--ink-soft); }
 
   code {
@@ -237,17 +242,6 @@
       </div>
       <div class="card">
         <div class="card-top">
-          <h3>mcp-config-audit</h3>
-          <span class="meta">Python · MIT</span>
-        </div>
-        <p>Audits MCP configuration files for hardcoded keys, plaintext transports, <code>curl&nbsp;|&nbsp;sh</code> launch commands and over-broad permissions. It reads the configuration, not the servers. SARIF output.</p>
-        <pre class="install"><code>pipx install mcp-config-audit</code></pre>
-        <p class="warn">PyPI is the only registry it is published to, always from a tagged commit in this repository. A package of this name on npm or any other registry is not mine.</p>
-        <div class="cardlinks"><a href="https://github.com/nyakojiru/mcp-config-audit">Source</a><a href="https://pypi.org/project/mcp-config-audit/">PyPI</a></div>
-        <div class="tags"><span class="tag">mcp</span><span class="tag">ai-security</span><span class="tag">static-analysis</span><span class="tag">sarif</span><span class="tag">devsecops</span></div>
-      </div>
-      <div class="card">
-        <div class="card-top">
           <h3>proofkey</h3>
           <span class="meta">TypeScript · MIT</span>
         </div>
@@ -257,8 +251,21 @@
       </div>
       <div class="card">
         <div class="card-top">
+          <h3>mcp-config-audit</h3>
+          <span class="meta">Python · MIT</span>
+          <span class="archived">Archived</span>
+        </div>
+        <p>Audits MCP configuration files for hardcoded keys, plaintext transports, <code>curl&nbsp;|&nbsp;sh</code> launch commands and over-broad permissions. It reads the configuration, not the servers. SARIF output.</p>
+        <pre class="install"><code>pipx install mcp-config-audit</code></pre>
+        <p class="warn">Archived: the code and the PyPI package stay published, but it no longer gets changes. PyPI is the only registry it is published to, always from a tagged commit in this repository. A package of this name on npm or any other registry is not mine.</p>
+        <div class="cardlinks"><a href="https://github.com/nyakojiru/mcp-config-audit">Source</a><a href="https://pypi.org/project/mcp-config-audit/">PyPI</a></div>
+        <div class="tags"><span class="tag">mcp</span><span class="tag">ai-security</span><span class="tag">static-analysis</span><span class="tag">sarif</span><span class="tag">devsecops</span></div>
+      </div>
+      <div class="card">
+        <div class="card-top">
           <h3>epub2audiobook</h3>
           <span class="meta">Python · MIT</span>
+          <span class="archived">Archived</span>
         </div>
         <p>Turns an epub into a chaptered audiobook. Gemini TTS does the narration; voice conversion against a single reference clip then anchors the timbre, so the voice stops changing every time the model starts a new generation. It ships with the measured research behind it: engine defects, blind listening rounds, and the fixes that improved the numbers while sounding worse.</p>
         <div class="cardlinks"><a href="https://github.com/nyakojiru/epub2audiobook/blob/main/FINDINGS.md">Findings</a><a href="https://github.com/nyakojiru/epub2audiobook">Source</a></div>
